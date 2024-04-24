@@ -1,0 +1,193 @@
+.wrapper {
+  position: relative;
+  /* font-size: 0.12rem; */
+  /* max-width: 1920px; */
+  margin: 0 auto;
+  text-align: center;
+}
+/* .wrapper .bg {
+  width: 100%;
+  position: relative;
+} */
+.wrapper .head{
+  height: 58.1vw;
+  background-image: url(../images/BG.png);
+  background-size: contain;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 0 9.3vw;
+  position: relative;
+}
+.wrapper .person{
+  position: absolute;
+  bottom: 9.1vw;
+  left: 24.6vw;
+  width: 33.5vw;
+  
+}
+.wrapper .screenshot{
+  position: absolute;
+  bottom: 12.56vw;
+  right: 22.3vw;
+  width: 16.2vw;
+  height: auto;
+  /* height: 646px; */
+  /* width: 312px; */
+
+}
+.wrapper .content {
+  position: absolute;
+  left: 19.5vw;
+  top: 5.89vw;
+  text-align: left;
+}
+.wrapper .content h2 {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 3.54vw;
+  line-height: 5.1vw;
+}
+.wrapper .middle .title {
+  text-align: center;
+  color: #121127;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 2.9vw;
+  line-height: 139.999998%;
+}
+.wrapper .middle .title span {
+  color: #6376f5;
+  font-weight: 900;
+}
+.wrapper .middle .box {
+  padding: 4.38vw 5.63vw 10.78vw;
+  background: url(../images/map.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66.57vw;
+  height: 40vw;
+  margin: 0 auto;
+}
+.wrapper .middle .box .item {
+  width: 26.04vw;
+  border-radius: .83vw;
+  border: .42vw solid #000000;
+  background: #ffffff;
+  box-shadow: 0 0.42vw 2.08vw rgba(186, 186, 186, 0.16);
+  padding: 2.6vw 2.08vw;
+  margin-right: 3.33vw;
+}
+.wrapper .middle .box .item:last-child{
+  margin-right: 0;
+}
+.wrapper .middle .box .item .header {
+  display: flex;
+  align-items: center;
+}
+.wrapper .middle .box .item .header img {
+  width: 70px;
+  height: 70px;
+  margin-right: 24px;
+}
+.wrapper .middle .box .item .header h2 {
+  color: #0d152e;
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 1.04vw;
+  letter-spacing: -0.7px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.wrapper .middle .box .item .header p {
+  color: #9ea1ab;
+  font-family: DM Sans;
+  font-size: .83vw;
+  letter-spacing: -0.5px;
+}
+.wrapper .middle .box .item > p {
+  color: #0d152e;
+  font-family: DM Sans;
+  font-size: 1.04vw;
+  line-height: 1.77vw;
+  letter-spacing: -0.7px;
+  text-align: left;
+  margin-top: 1.77vw;
+}
+.wrapper .middle .box .item .stars {
+  text-align: left;
+  margin-top: 1.77vw;
+}
+.wrapper .middle .box .item .stars img {
+  margin-right: 0.58vw;
+  width: 1.19vw;
+}
+.wrapper .middle .box .item .item:last-child {
+  margin-right: 0;
+}
+.wrapper .form {
+  max-width: 60.9vw;
+  border-radius: .83vw;
+  background: #6376f5;
+  box-shadow: 0px 1.04vw 2.6bw rgba(18, 17, 39, 0.08);
+  margin: 0 auto;
+  padding: 2.9vw 2.5vw;
+  display: flex;
+  align-items: center;
+}
+.wrapper .form .left {
+  text-align: left;
+  margin-bottom: 12px;
+}
+.wrapper .form .left .main-title {
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 1.67vw;
+  line-height: 139.999998%;
+}
+.wrapper .form .left .sub-title {
+  color: rgba(255, 255, 255, 0.56);
+  font-family: Poppins;
+  font-size: .83vw;
+  line-height: 179.999995%;
+  margin-top: .63vw;
+}
+.wrapper .form .right {
+  display: flex;
+  align-items: center;
+}
+.wrapper .form .right input {
+  width: 13.9vw;
+  height: 2.71vw;
+  border-radius: .42vw;
+  background: #ffffff;
+  outline: none;
+  margin-right: .83vw;
+  padding: 0.63vw 0.83vw ;
+  border: none;
+  font-size: .83vw;
+}
+.wrapper .form .right .buttom {
+  width: 7.8vw;
+  height: 2.45vw;
+  border-radius: 0.42vw;
+  background: linear-gradient(241.35deg, #ffca64 15.83%, #ff922e 91.24%);
+  text-align: center;
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.83vw;
+  line-height: 2.45vw;
+  cursor: pointer;
+}
+.wrapper .footer {
+  color: rgba(18, 17, 39, 0.56);
+  font-family: Poppins;
+  font-size: .83vw;
+  line-height: 179.999995%;
+  margin: 4.48vw 0;
+}

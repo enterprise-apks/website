@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,html{
+    /* font-size: 13.33333vw;   */
+  }
+.height {
+    height: 100%;
+  }
+  
+  .width {
+    width: 100%;
+  }
+  
+  .none {
+    display: none;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  /* float */
+  .fl {
+    float: left;
+  }
+  
+  .fr {
+    float: right;
+  }
+  
+  .fclear {
+    clear: both;
+  }
+  
+  /* flex */
+  .fc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .xs {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .xc {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .xe {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .xb {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .xa {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .ys {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  .yc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .ye {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  
+  .yb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .ya {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .f0 {
+    flex: 0;
+  }
+  
+  .f1 {
+    flex: 1;
+  }
+  
+  .aic {
+    align-items: center;
+  }
+  
+  .ais {
+    align-items: flex-start;
+  }
+  
+  .aie {
+    align-items: flex-end;
+  }
+  
+  /* padding */
+  .pl10 {
+    padding-left: 10px;
+  }
+  
+  .pr10 {
+    padding-right: 10px;
+  }
+  
+  .pt10 {
+    padding-top: 10px;
+  }
+  
+  .pb10 {
+    padding-top: 10px;
+  }
+  
+  /* margin */
+  .ml10 {
+    margin-left: 10px;
+  }
+  
+  .mr10 {
+    margin-right: 10px;
+  }
+  
+  .mt10 {
+    margin-top: 10px;
+  }
+  
+  .mb10 {
+    margin-top: 10px;
+  }
+  
+  /* font-size */
+  .fs10 {
+    font-size: 10px;
+  }
+  
+  /* font-weight */
+  .fwb {
+    font-weight: bold;
+  }
+  
+  .fw4 {
+    font-weight: 400;
+  }
+  
+  .fw5 {
+    font-weight: 500;
+  }
+  
+  .fw6 {
+    font-weight: 600;
+  }
+  
+  /* position */
+  .posr {
+    position: relative;
+  }
+  
+  .posa {
+    position: absolute;
+  }
+  
+  .posf {
+    position: fixed;
+  }
+  
+  /* overflow */
+  .ofh {
+    overflow: hidden;
+  }
+  
+  .ofa {
+    overflow: auto;
+  }
+  
+  /* 文本超出省略号 */
+  .oft {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .oft2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .oft3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .oft4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  
+  .oft5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  
+  /* 背景图居中 */
+  .bic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
